@@ -133,7 +133,7 @@ var getChannels = function() {
                 <img src="` + imgURL + `" width="360" height= "270" />
                 <title>${name}</title>
                 <row>
-                  <badge src="http://www.gunnebo.se/PublishingImages/red%20cirkle.png" width="64" height="64"/>
+                  <badge src="https://new.static.tv.nu/17274821" width="32" height="24"/>
                     <subtitle>${title}</subtitle>
                 </row>
             </lockup>

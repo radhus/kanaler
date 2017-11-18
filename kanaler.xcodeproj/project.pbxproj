@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C08D1991FABAA8600587F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C08D1981FABAA8600587F99 /* AppDelegate.swift */; };
+		0C08D1A71FABAA8600587F99 /* kanalerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C08D1A61FABAA8600587F99 /* kanalerTests.swift */; };
+		0C08D1B21FABAA8600587F99 /* kanalerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C08D1B11FABAA8600587F99 /* kanalerUITests.swift */; };
+		0C08D1BF1FABD09F00587F99 /* application.js in Sources */ = {isa = PBXBuildFile; fileRef = 0C08D19A1FABAA8600587F99 /* application.js */; };
+		0C08D1C01FABD15300587F99 /* application.js in Resources */ = {isa = PBXBuildFile; fileRef = 0C08D19A1FABAA8600587F99 /* application.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C08D1A31FABAA8600587F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C08D18D1FABAA8600587F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C08D1941FABAA8600587F99;
+			remoteInfo = kanaler;
+		};
+		0C08D1AE1FABAA8600587F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C08D18D1FABAA8600587F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C08D1941FABAA8600587F99;
+			remoteInfo = kanaler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C08D1951FABAA8600587F99 /* kanaler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kanaler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C08D1981FABAA8600587F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C08D19A1FABAA8600587F99 /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		0C08D19D1FABAA8600587F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C08D1A21FABAA8600587F99 /* kanalerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kanalerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C08D1A61FABAA8600587F99 /* kanalerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kanalerTests.swift; sourceTree = "<group>"; };
+		0C08D1A81FABAA8600587F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C08D1AD1FABAA8600587F99 /* kanalerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kanalerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C08D1B11FABAA8600587F99 /* kanalerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kanalerUITests.swift; sourceTree = "<group>"; };
+		0C08D1B31FABAA8600587F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C08D1921FABAA8600587F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C08D19F1FABAA8600587F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C08D1AA1FABAA8600587F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C08D18C1FABAA8600587F99 = {
+			isa = PBXGroup;
+			children = (
+				0C08D1971FABAA8600587F99 /* kanaler */,
+				0C08D1A51FABAA8600587F99 /* kanalerTests */,
+				0C08D1B01FABAA8600587F99 /* kanalerUITests */,
+				0C08D1961FABAA8600587F99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C08D1961FABAA8600587F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C08D1951FABAA8600587F99 /* kanaler.app */,
+				0C08D1A21FABAA8600587F99 /* kanalerTests.xctest */,
+				0C08D1AD1FABAA8600587F99 /* kanalerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C08D1971FABAA8600587F99 /* kanaler */ = {
+			isa = PBXGroup;
+			children = (
+				0C08D1981FABAA8600587F99 /* AppDelegate.swift */,
+				0C08D19A1FABAA8600587F99 /* application.js */,
+				0C08D19D1FABAA8600587F99 /* Info.plist */,
+			);
+			path = kanaler;
+			sourceTree = "<group>";
+		};
+		0C08D1A51FABAA8600587F99 /* kanalerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C08D1A61FABAA8600587F99 /* kanalerTests.swift */,
+				0C08D1A81FABAA8600587F99 /* Info.plist */,
+			);
+			path = kanalerTests;
+			sourceTree = "<group>";
+		};
+		0C08D1B01FABAA8600587F99 /* kanalerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C08D1B11FABAA8600587F99 /* kanalerUITests.swift */,
+				0C08D1B31FABAA8600587F99 /* Info.plist */,
+			);
+			path = kanalerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C08D1941FABAA8600587F99 /* kanaler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C08D1B61FABAA8600587F99 /* Build configuration list for PBXNativeTarget "kanaler" */;
+			buildPhases = (
+				0C08D1911FABAA8600587F99 /* Sources */,
+				0C08D1921FABAA8600587F99 /* Frameworks */,
+				0C08D1931FABAA8600587F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kanaler;
+			productName = kanaler;
+			productReference = 0C08D1951FABAA8600587F99 /* kanaler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C08D1A11FABAA8600587F99 /* kanalerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C08D1B91FABAA8600587F99 /* Build configuration list for PBXNativeTarget "kanalerTests" */;
+			buildPhases = (
+				0C08D19E1FABAA8600587F99 /* Sources */,
+				0C08D19F1FABAA8600587F99 /* Frameworks */,
+				0C08D1A01FABAA8600587F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C08D1A41FABAA8600587F99 /* PBXTargetDependency */,
+			);
+			name = kanalerTests;
+			productName = kanalerTests;
+			productReference = 0C08D1A21FABAA8600587F99 /* kanalerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C08D1AC1FABAA8600587F99 /* kanalerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C08D1BC1FABAA8600587F99 /* Build configuration list for PBXNativeTarget "kanalerUITests" */;
+			buildPhases = (
+				0C08D1A91FABAA8600587F99 /* Sources */,
+				0C08D1AA1FABAA8600587F99 /* Frameworks */,
+				0C08D1AB1FABAA8600587F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C08D1AF1FABAA8600587F99 /* PBXTargetDependency */,
+			);
+			name = kanalerUITests;
+			productName = kanalerUITests;
+			productReference = 0C08D1AD1FABAA8600587F99 /* kanalerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C08D18D1FABAA8600587F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "William Johansson";
+				TargetAttributes = {
+					0C08D1941FABAA8600587F99 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					0C08D1A11FABAA8600587F99 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0C08D1941FABAA8600587F99;
+					};
+					0C08D1AC1FABAA8600587F99 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0C08D1941FABAA8600587F99;
+					};
+				};
+			};
+			buildConfigurationList = 0C08D1901FABAA8600587F99 /* Build configuration list for PBXProject "kanaler" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C08D18C1FABAA8600587F99;
+			productRefGroup = 0C08D1961FABAA8600587F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C08D1941FABAA8600587F99 /* kanaler */,
+				0C08D1A11FABAA8600587F99 /* kanalerTests */,
+				0C08D1AC1FABAA8600587F99 /* kanalerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C08D1931FABAA8600587F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C08D1C01FABD15300587F99 /* application.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C08D1A01FABAA8600587F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C08D1AB1FABAA8600587F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C08D1911FABAA8600587F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C08D1BF1FABD09F00587F99 /* application.js in Sources */,
+				0C08D1991FABAA8600587F99 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C08D19E1FABAA8600587F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C08D1A71FABAA8600587F99 /* kanalerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C08D1A91FABAA8600587F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C08D1B21FABAA8600587F99 /* kanalerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C08D1A41FABAA8600587F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C08D1941FABAA8600587F99 /* kanaler */;
+			targetProxy = 0C08D1A31FABAA8600587F99 /* PBXContainerItemProxy */;
+		};
+		0C08D1AF1FABAA8600587F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C08D1941FABAA8600587F99 /* kanaler */;
+			targetProxy = 0C08D1AE1FABAA8600587F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C08D1B41FABAA8600587F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		0C08D1B51FABAA8600587F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C08D1B71FABAA8600587F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SVG5YPH44;
+				INFOPLIST_FILE = kanaler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.radhuset.kanaler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		0C08D1B81FABAA8600587F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SVG5YPH44;
+				INFOPLIST_FILE = kanaler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.radhuset.kanaler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		0C08D1BA1FABAA8600587F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kanalerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.radhuset.kanalerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kanaler.app/kanaler";
+			};
+			name = Debug;
+		};
+		0C08D1BB1FABAA8600587F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kanalerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.radhuset.kanalerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kanaler.app/kanaler";
+			};
+			name = Release;
+		};
+		0C08D1BD1FABAA8600587F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kanalerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.radhuset.kanalerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = kanaler;
+			};
+			name = Debug;
+		};
+		0C08D1BE1FABAA8600587F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kanalerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.radhuset.kanalerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = kanaler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C08D1901FABAA8600587F99 /* Build configuration list for PBXProject "kanaler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C08D1B41FABAA8600587F99 /* Debug */,
+				0C08D1B51FABAA8600587F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C08D1B61FABAA8600587F99 /* Build configuration list for PBXNativeTarget "kanaler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C08D1B71FABAA8600587F99 /* Debug */,
+				0C08D1B81FABAA8600587F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C08D1B91FABAA8600587F99 /* Build configuration list for PBXNativeTarget "kanalerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C08D1BA1FABAA8600587F99 /* Debug */,
+				0C08D1BB1FABAA8600587F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C08D1BC1FABAA8600587F99 /* Build configuration list for PBXNativeTarget "kanalerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C08D1BD1FABAA8600587F99 /* Debug */,
+				0C08D1BE1FABAA8600587F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C08D18D1FABAA8600587F99 /* Project object */;
+}

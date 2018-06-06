@@ -42,17 +42,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
         let appControllerContext = TVApplicationControllerContext()
         
         // The JavaScript URL is used to create the JavaScript context for your TVMLKit application. Although it is possible to separate your JavaScript into separate files, to help reduce the launch time of your application we recommend creating minified and compressed version of this resource. This will allow for the resource to be retrieved and UI presented to the user quickly.
+        /* remote */
         /*
         if let javaScriptURL = URL(string: AppDelegate.tvBootURL) {
             appControllerContext.javaScriptApplicationURL = javaScriptURL
         }
+        appControllerContext.launchOptions["BASEURL"] = AppDelegate.tvBaseURL as NSString
         */
+
+        /* local */
         if let javaScriptURL = Bundle.main.url(forResource: "application", withExtension: "js"){
             appControllerContext.javaScriptApplicationURL = javaScriptURL
         }
         let TVBaseURL = appControllerContext.javaScriptApplicationURL.deletingLastPathComponent()
-        
-        //appControllerContext.launchOptions["BASEURL"] = AppDelegate.tvBaseURL as NSString
         appControllerContext.launchOptions["BASEURL"] = TVBaseURL.absoluteString
         
         if let launchOptions = launchOptions {
